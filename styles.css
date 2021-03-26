@@ -66,6 +66,10 @@ body  {
     font-size: 204px;
     font-family: Rosso;
     position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .social_links {
     height: 50px;
