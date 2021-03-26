@@ -55,14 +55,14 @@ body  {
 }
 #hero_section {
     height: 100vh;
-    background: url(bg3.jpg)  no-repeat center center fixed;
+    background: url(3f34ef20faa9d197bb741c806f7a460e4887fa98_hq.gif)  no-repeat center center fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 #hero_section h1 {
-    color: rgba(46, 46, 46, 0.678);
+    color: rgba(27, 27, 27, 0.678);
     font-size: 204px;
     font-family: Rosso;
     position: absolute;
@@ -74,6 +74,7 @@ body  {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.637);
+    visibility: hidden;
 }
 .socials li a {
     text-decoration: none;
@@ -101,6 +102,32 @@ body  {
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-animation: fadein 10s;
+    -moz-animation: fadein 10s;
+     -ms-animation: fadein 10s;
+      -o-animation: fadein 10s;
+         animation: fadein 10s;
+}
+@keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
 }
 h1 {
     display: flex;
