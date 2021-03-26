@@ -103,6 +103,12 @@ body  {
     align-items: center;
 }
 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
     opacity: 0.7;
   }
   @media (max-width: 990px) {
